@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+
+# Datasets and downloaded model weights
+data/*
+!data/README.md
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Generated experiment outputs
+results/*
+figures/*
