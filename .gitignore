@@ -26,3 +26,4 @@ data/*
 # Generated experiment outputs
 results/*
 figures/*
+.DS_Store
